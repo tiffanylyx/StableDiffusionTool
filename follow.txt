@@ -1,0 +1,20 @@
+conda create -n StableDiffusion2 python=3.9
+conda activate StableDiffusion2
+
+pip install --upgrade diffusers transformers scipy
+
+conda install pytorch torchvision torchaudio -c pytorch
+
+python run.py
+
+Parameter instructions:
+--prompt: text prompt
+--imgprompt: img prompt
+--outdir: place to save the image, default is 'outputs/'
+--steps: iteration steps
+--strength: style strength, by default is 0.5
+--seed: random seed
+--scale: guidance scale, how strong the prompt is leading, by default is 7.5
+--H: height, by default is 512
+--W: weight, by default is 512
+--batch: images geneate each round, by default is 2
