@@ -7,7 +7,7 @@ conda activate StableDiffusion
 
 pip install --upgrade diffusers transformers scipy
 
-conda install pytorch torchvision torchaudio -c pytorch
+conda install pytorch torchvision torchaudio -c pytorch. # You might need to use other command if you are using other machine. Check here https://pytorch.org/
 
 
 huggingface-cli login ## copy the token here
