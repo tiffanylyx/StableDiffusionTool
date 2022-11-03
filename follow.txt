@@ -9,6 +9,10 @@ pip install --upgrade diffusers transformers scipy
 
 conda install pytorch torchvision torchaudio -c pytorch
 
+
+huggingface-cli login ## copy the token here
+
+
 python run.py
 
 Parameter instructions:
