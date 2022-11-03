@@ -2,8 +2,8 @@ git clone https://github.com/tiffanylyx/StableDiffusionTool.git
 
 cd StableDiffusionTool
 
-conda create -n StableDiffusion2 python=3.9
-conda activate StableDiffusion2
+conda create -n StableDiffusion python=3.9
+conda activate StableDiffusion
 
 pip install --upgrade diffusers transformers scipy
 
